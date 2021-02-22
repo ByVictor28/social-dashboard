@@ -1,0 +1,37 @@
+@import "../../App";
+
+.Header{
+    background: var(--TopBG);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 9rem;
+    .HeaderContent{
+        width: 95%;
+        margin: 0 auto;
+        @include Laptop{
+            display: flex;
+            justify-content: space-between;
+
+            .Titulo{
+                border-bottom: none;
+            }
+        }
+    }
+    
+}
+.Titulo{
+        
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--Text);
+    h1{
+        margin: 0;
+    }
+    span{
+        color: var(--TextSub);
+        font-weight: 700;
+    }
+}
+.Switch{
+    padding: 2rem 0;
+    @include flexCenter(space-between);
+}
