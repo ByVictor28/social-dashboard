@@ -2,22 +2,23 @@
 
 .Header{
     background: var(--TopBG);
-    display: flex;
-    justify-content: center;
+    height: 25rem;
     padding-bottom: 9rem;
     .HeaderContent{
-        width: 95%;
-        margin: 0 auto;
+        
+        @extend .Container;
+        // width: 95%;
+        // margin: 0 auto;
+        
         @include Laptop{
             display: flex;
             justify-content: space-between;
-
+            margin-bottom: 5rem;
             .Titulo{
                 border-bottom: none;
             }
         }
     }
-    
 }
 .Titulo{
         
@@ -34,4 +35,12 @@
 .Switch{
     padding: 2rem 0;
     @include flexCenter(space-between);
+}
+
+.List{
+    @extend .Container;    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
 }

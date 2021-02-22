@@ -2,6 +2,7 @@ import './App.scss';
 import {createGlobalStyle} from "styled-components";
 import {useState} from "react";
 import Header from './Components/Header/Header';
+import MainCard from './Components/MainCard/MainCard';
 
 const DarkStye = createGlobalStyle`
   :root {
