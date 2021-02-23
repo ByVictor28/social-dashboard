@@ -4,12 +4,12 @@
     background: var(--TopBG);
     height: 25rem;
     padding-bottom: 9rem;
-    span{
-        color: var(--TextSub);
-        font-weight: 700;
-    }
+    
     .HeaderContent{
-        
+        span{
+            color: var(--TextSub);
+            font-weight: 700;
+        }
         @extend .Container;
         // width: 95%;
         // margin: 0 auto;

@@ -16,12 +16,12 @@ const SubCard = ({image,title,color,number,porcentage})=>{
                     ?
                         <div className="negative">
                             <img src="images/icon-down.svg" alt="ICON"/>
-                            <span>{porcentage}</span>
+                            <span>{porcentage}%</span>
                         </div>
                     :
                         <div className="positive">
                             <img src="images/icon-up.svg" alt="ICON"/>
-                            <span>{porcentage}</span>
+                            <span>{porcentage}%</span>
                         </div>
                 }
             </div>

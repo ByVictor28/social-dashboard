@@ -1,13 +1,13 @@
 import React from 'react'
 import classes from "./MainCard.module.scss"
 
-const MainCard = ({image,name,current,tipe,amount,color,Top})=>{ 
+const MainCard = ({image,name,current,tipe,amount,color,Top,click})=>{ 
     const top = {
 
     }
 return (
-    <div className={`${classes.MainCard} ${Top}`}>
-        <div className={Top==="Instagram"?classes.Mask:""}>
+    <div className={`${classes.MainCard} ${Top}`} onClick={() => click(Top)}>
+        <div className={Top==="instagram"?classes.Mask:""}>
             <div>
                 <img src={`/images/${image}`} alt="ICON"/>
                 <span>{name}</span>
