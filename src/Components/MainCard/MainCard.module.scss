@@ -2,7 +2,7 @@
 
 .MainCard{
     background: var(--Card);
-    width: 27rem;
+    width: 24rem;
     height: 23rem;
     text-align: center;
     padding: 3rem;
@@ -33,13 +33,7 @@
         }
     }
     
-    .positive{
-        color: $positive;
-    }
-
-    .negative{
-        color: $negative;
-    }
+    
 }
 
 .Mask{

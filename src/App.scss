@@ -21,6 +21,7 @@ $negative:hsl(356, 69%, 56%);
 
 @mixin flexCenter($justify) {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: $justify;
 }
@@ -30,7 +31,7 @@ $negative:hsl(356, 69%, 56%);
     margin: 0 auto;
 
     @include Laptop{
-        width: 78%;
+        width: 85%;
     }
 }
 
@@ -54,4 +55,11 @@ body{
 }
 .Youtube{
     border-top: 6px solid hsl(348, 97%, 39%);
+}
+.positive{
+    color: $positive !important;
+}
+
+.negative{
+    color: $negative !important;
 }

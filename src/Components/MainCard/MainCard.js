@@ -21,12 +21,12 @@ return (
                 ?
                 <>
                     <img src="/images/icon-down.svg" alt="ICON"/>
-                    <span className={classes.negative}>{amount} Today</span>
+                    <span className="negative">{amount} Today</span>
                 </>
                 :
                 <>
                     <img src="/images/icon-up.svg" alt="ICON"/>
-                    <span className={classes.positive}>{amount} Today</span>
+                    <span className="positive">{amount} Today</span>
                 </>
                 }
             </div>

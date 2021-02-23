@@ -1,0 +1,11 @@
+@import "../../App.scss";
+
+.Overview{
+    @extend .Container;
+
+    .Lista{
+        @include flexCenter(space-around);
+        gap: 3rem;
+    }
+    
+}

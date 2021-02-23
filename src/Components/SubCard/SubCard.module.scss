@@ -1,0 +1,23 @@
+@import "../../App.scss";
+
+.SubCard{
+    background: var(--Card);
+    border-radius: 0.5rem;
+    width: 27rem;
+    height: 15rem;
+    padding: 2.5rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: 700;
+    .Title{
+        color: var(--TextSub);
+    }
+    .Number{
+        color: var(--text);
+        font-size: 4rem
+    }
+    div{
+        @include flexCenter(space-between);
+    }
+}
